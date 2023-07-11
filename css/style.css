@@ -67,7 +67,7 @@ body main .main__content .taymer .times .time {
   position: relative;
   width: 148px;
   height: 140px;
-  background: rgb(52, 54, 80);
+  background: linear-gradient(180deg, #2d2e44 50%, #343650 50%);
   border-radius: 8px;
   overflow: hidden;
   display: flex;
