@@ -18,7 +18,7 @@ body{
 
 
   display: flex;
-  // align-items: center;
+  align-items: center;
   justify-content: center;
   main{
     width: 100%;
@@ -160,11 +160,11 @@ body{
 @media only screen and (max-width:500px) {
   body{
     // width: 100%;
-    background-image: url(/img/mobile-background.png);
-    background-repeat: no-repeat;
-    // background-position: 0 0 0 -100px;
-    background-size: 100%;
-    padding: 60px;
+    background-image: none;
+    // background-repeat: no-repeat;
+    // // background-position: 0 0 0 -100px;
+    // background-size: 100%;
+
     main{
       width: 100%;
       display: flex;

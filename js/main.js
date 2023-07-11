@@ -8,7 +8,7 @@ let modalPage = document.querySelector(".modal__page")
 let input = document.querySelector("input")
 let btn = document.querySelector("button")
 let deadlineTime = document.querySelector("h3")
-let deadline = "2023-07-12"
+let deadline = "2023-07-14"
 deadlineTime.innerText = deadline
 
 function dataTimer(dl){
