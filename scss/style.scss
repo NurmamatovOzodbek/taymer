@@ -23,6 +23,7 @@ body{
   main{
     width: 100%;
     display: flex;
+    // display: none;
     flex-direction: column;
     align-items: center;
     gap: 255px;
@@ -31,11 +32,23 @@ body{
       flex-direction: column;
       align-items: center;
       gap: 104px;
-      h1{
-        font-size: 22px;
-        letter-spacing: 7.5px;
-        text-transform: uppercase;
-        color: white;
+      .time__name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        h1{
+          font-size: 22px;
+          letter-spacing: 7.5px;
+          text-transform: uppercase;
+          color: white;
+        }
+        h3{
+          font-size: 22px;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: white;
+        }
       }
       .taymer{
         width: max-content;
@@ -97,6 +110,50 @@ body{
           }
         }
       }
+    }
+    .social__network{
+      cursor: pointer;
+    }
+  }
+  .modal__page{
+    // display: flex;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      label{
+        font-size: 18px;
+        color: white;
+      }
+      input{
+        width: 250px;
+        padding: 15px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+
+        font-size: 16px;
+        &::placeholder{
+          font-size: 16px;
+          color: black;
+          opacity: 0.3;
+        }
+      }
+    }
+    button{
+      width: 120px;
+      padding: 10px 0;
+      border-radius: 8px;
+      border: none;
+      background: #F87070;
+      cursor: pointer;
+
+      font-size: 15px;
+      text-transform: uppercase;
     }
   }
 }

@@ -1,10 +1,15 @@
-let deadline = "2023-07-11T06:12:00Z"
 
 let main = document.querySelector("main")
 let day = document.querySelector(".days span")
 let hourse = document.querySelector(".hourse span")
 let minutes = document.querySelector(".minutes span")
 let seconds = document.querySelector(".seconds span")
+let modalPage = document.querySelector(".modal__page")
+let input = document.querySelector("input")
+let btn = document.querySelector("button")
+let deadlineTime = document.querySelector("h3")
+let deadline = "2023-07-12"
+deadlineTime.innerText = deadline
 
 function dataTimer(dl){
   let t = Date.parse(new Date(dl)) - Date.parse(new Date()),

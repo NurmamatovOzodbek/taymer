@@ -32,9 +32,21 @@ body main .main__content {
   align-items: center;
   gap: 104px;
 }
-body main .main__content h1 {
+body main .main__content .time__name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+body main .main__content .time__name h1 {
   font-size: 22px;
   letter-spacing: 7.5px;
+  text-transform: uppercase;
+  color: white;
+}
+body main .main__content .time__name h3 {
+  font-size: 22px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: white;
 }
@@ -99,4 +111,55 @@ body main .main__content .taymer .times p {
   letter-spacing: 5.919px;
   text-transform: uppercase;
   color: #8385A9;
+}
+body main .social__network {
+  cursor: pointer;
+}
+body .modal__page {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+body .modal__page form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .modal__page form label {
+  font-size: 18px;
+  color: white;
+}
+body .modal__page form input {
+  width: 250px;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+body .modal__page form input::-moz-placeholder {
+  font-size: 16px;
+  color: black;
+  opacity: 0.3;
+}
+body .modal__page form input:-ms-input-placeholder {
+  font-size: 16px;
+  color: black;
+  opacity: 0.3;
+}
+body .modal__page form input::placeholder {
+  font-size: 16px;
+  color: black;
+  opacity: 0.3;
+}
+body .modal__page button {
+  width: 120px;
+  padding: 10px 0;
+  border-radius: 8px;
+  border: none;
+  background: #F87070;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
